@@ -108,6 +108,28 @@ The implemented approaches are evaluated using:
 ## Experimental Results
 
 The following figures illustrate the experimental results.
+### Quantitative Performance Comparison
+
+The performance of DQN and Q-Learning was evaluated
+over 1,000 episodes using the recorded experimental results.
+
+| Evaluation Metric | DQN | Q-Learning |
+|-------------------|-----|------------|
+| Evaluation Episodes | 1,000 | 1,000 |
+| Average Episode Reward | -92.85 | -108.47 |
+| Average Vehicle Waiting Time | 2.70 | 3.11 |
+| Reward Standard Deviation | 24.45 | 22.38 |
+| Waiting Time Standard Deviation | 1.17 | 1.19 |
+
+### Key Findings
+
+- DQN achieved a higher average episode reward than Q-Learning.
+- DQN reduced average vehicle waiting time by approximately 13.1% compared to Q-Learning.
+- The recorded results suggest that DQN performed better on both evaluation metrics in these experiments.
+
+These findings are based on the saved evaluation results
+and should be interpreted within the scope of the
+simulated traffic environment.
 
 ### Deep Q-Network (DQN)
 
