@@ -1,4 +1,7 @@
 numpy
 matplotlib
 tensorflow
+keras
 streamlit
+opencv-python
+Pillow
