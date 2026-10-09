@@ -50,6 +50,53 @@ Deep-RL-Traffic-Signal-Control/
 ├── README.md
 └── .gitignore
 ```
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/zahraKrm/Deep-RL-Traffic-Signal-Control.git
+cd Deep-RL-Traffic-Signal-Control
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### 1. Generate Traffic Data
+
+```bash
+python traffic_data_env.py
+```
+
+### 2. Train the Q-Learning Agent
+
+```bash
+python qlearning_env.py
+```
+
+### 3. Train the DQN Agent
+
+```bash
+python deepRL_env.py
+```
+
+### 4. Evaluate the Trained Models
+
+```bash
+python test_qlearning.py
+python test_deep.py
+```
+
+### 5. Launch the Visualization Dashboard
+
+```bash
+streamlit run streamlit_app.py
+```
 
 ## Evaluation Metrics
 
